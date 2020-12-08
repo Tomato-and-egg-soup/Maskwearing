@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图像识别口罩</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-part">
+    <div class="menu">
+        <ul>
+            <li>
+                <a href="checkimage.html">图片识别<span>&gt;</span></a>
+            </li>
+            <li>
+                <a href="checkvedio.html">摄像头识别<span>&gt;</span></a>
+            </li>
+        </ul>
+    </div>
+    <div class="put_image" >
+        <video class="putting"id="video" style="background-color: antiquewhite"></video>
+        <br/>
+        <button onclick="openMedia()" class="button"style="float: left;margin-left: 20px;">开启摄像头</button>
+        <button onclick="closeMedia()" class="button"style="float: right;margin-right: 20px;">关闭摄像头</button>
+        <script type="text/javascript" src="use-vedio.js"></script>
+    </div>
+</div>
+</body>
+</html>
